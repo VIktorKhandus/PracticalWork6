@@ -133,24 +133,24 @@ namespace WpfAppLR6
                 { "<Today>", today },
 
                 // Данные пользователя
-                { "<fullName>", users.FullName },
+                { "<FullName>", users.FullName },
                 { "<DateOfBirth>", users.DateOfBirth.Value.ToShortDateString() }, // дата рождения
                 { "<Adress>", users.Adress },
                 { "<PSeria>", users.PSeria.ToString() }, // Серия паспорта
                 { "<PNumber>", users.PNumber.ToString() }, // Номер паспорта
-                { "<PVidam>", users.PVidan }, // Кем выдан паспорт
+                { "<PVidan>", users.PVidan }, // Кем выдан паспорт
 
                 // Данные автомобиля
-                { "<Model>", auto.Model }, // Модель автомобиля
-                { "<Category>", auto.Category }, // Категория автомобиля
-                { "<Type>", auto.TypeV }, // Тип автомобиля
+                { "<ModelV>", auto.Model }, // Модель автомобиля
+                { "<CategoryV>", auto.Category }, // Категория автомобиля
+                { "<TypeV>", auto.TypeV }, // Тип автомобиля
                 { "<VIN>", auto.VIN }, // VIN номер
                 { "<RegistrationMark>", auto.RegistrationMark }, // Регистрационный знак
                 { "<YearV>", auto.YearOfRelease.Value.Year.ToString() }, // Год выпуска
                 { "<EngineV>", auto.EngineNumber }, // Номер двигателя
                 { "<ChassisV>", auto.Chassis }, // Шасси
                 { "<BodyworkV>", auto.Bodywork }, // Кузов
-                { "<ColorV>", auto.Color }, // Цвет
+                { "<ColourV>", auto.Color }, // Цвет
                 { "<SeriaPV>", auto.SeriaPasport }, // Серия ПТС
                 { "<NumberPV>", auto.NumbePasport }, // Номер ПТС
                 { "<VidanPV>", auto.VidanPasport } // Кем выдан ПТС
